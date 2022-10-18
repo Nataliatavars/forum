@@ -1,0 +1,30 @@
+<!DOCTYPEhtml >
+< html  lang =" pt-BR " >
+
+< html >
+	< cabeça >
+  	< meta  charset =" utf-8 " >
+	< title > Seu Signo </ title >
+	</ cabeça >
+
+	< corpo >
+
+  	< h1 > Signos do Zodíaco </ h1 >
+	
+	< classe div  =" contêiner " >
+		< h2 > Saiba seu Signo </ h2 >
+		< método de formulário  =" post " ação =" signos.php " >
+			< div  class =" form-group " >
+ 				< label  for =" floatingImput " > Informe a data de nascimento: </ label >
+				id="data" placeholder="data de nascimento"
+				name="datNasc" requer >
+			</ div >
+			< tipo de botão  =" enviar " classe =" btn
+			btn-default " > botão Enviar </ >
+			< tipo de botão  =" reset " classe =" btn
+			btn-default " > Botão Cancelar </ >
+		</ formulário >
+	</ div >
+
+	</ corpo >
+</ html >
